@@ -20,3 +20,13 @@ Reveal.initialize({
         { src: 'plugin/notes/notes.js', async: true }
     ]
 });
+
+// Connect to jitsi and show shared video
+var domain = "meet.jit.si";
+var room = "workshop-git-init";
+var width = 700;
+var height = 700;
+var htmlElement = document.getElementById("live-video");
+var configOverwrite = {};
+var interfaceConfigOverwrite = {};
+var api = new JitsiMeetExternalAPI(domain, room, width, height, htmlElement, true, configOverwrite, interfaceConfigOverwrite);
