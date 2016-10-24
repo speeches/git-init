@@ -45,8 +45,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			js: {
-				files: [ 'Gruntfile.js', 'js/reveal.js' ],
-				tasks: 'js'
+				files: [ 'Gruntfile.js', 'js/*.js' ]
 			},
 			theme: {
 				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
@@ -60,7 +59,7 @@ module.exports = function(grunt) {
 				files: [ '*.html']
 			},
 			markdown: {
-				files: [ '*.md' ]
+				files: [ 'slides/*.md' ]
 			},
 			options: {
 				livereload: true
