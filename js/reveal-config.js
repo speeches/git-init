@@ -27,8 +27,21 @@ var room = "GitInitWorkShop";
 var width = 700;
 var height = 700;
 var htmlElement = document.getElementById("live-video");
-var configOverwrite = {};
-var interfaceConfigOverwrite = {};
+var configOverwrite = {
+    desktopSharingChromeSources: [],
+    startAudioMuted: true,
+    startVideoMuted: true,
+};
+var interfaceConfigOverwrite = {
+    SHOW_JITSI_WATERMARK: false,
+    INVITATION_POWERED_BY: false,
+    AUTHENTICATION_ENABLE: false,
+    MAIN_TOOLBAR_BUTTONS: [],
+    TOOLBAR_BUTTONS: [],
+    SETTINGS_SECTIONS: [],
+    DISABLE_DOMINANT_SPEAKER_INDICATOR: true,
+    DISABLE_RINGING: true,
+};
 var ssl = true;
 
 var api = new JitsiMeetExternalAPI(domain, room, width, height, htmlElement, configOverwrite, interfaceConfigOverwrite, !ssl);
