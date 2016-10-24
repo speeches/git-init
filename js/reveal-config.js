@@ -20,3 +20,12 @@ Reveal.initialize({
         { src: 'plugin/notes/notes.js', async: true }
     ]
 });
+
+var newLine = '(\r)?\n';
+
+for (var group of document.getElementsByClassName("section-md")){
+    group.dataset.separator = "^" + newLine + "===" + newLine ;
+    group.dataset.separatorVertical = "^" + newLine + "---" + newLine ;
+    group.dataset.separatorNotes = "^Note:";
+    group.dataset.charset = "iso-8859-15";
+}
