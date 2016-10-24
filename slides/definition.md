@@ -33,3 +33,64 @@ Source: [wikipedia.org][1]
 > Source: [git-scm.com][1]
 
 [1]: http://git-scm.com
+
+---
+
+## Git really is
+
+- An DSCM `=>` Distributed* Source Control Management
+- It's by Linus Torvalds
+- Was born by Linus bad experience using CVS
+
+## Git really isn't
+- Another Version Control (CVS, SVN, TFS, Mercurial)
+- Dropbox, One Drive, Google Drive, *Drive
+- A network share
+
+===
+
+# ...ok
+## but how it works ?
+
+nice definitions, what is git actually?
+
+You can imagine git like a virtual file system, with a great support for snapshot
+
+*(not like windows's restore point)*
+
+### Snapshot is not automatic but it is an explicit operation!
+
+... and is not a bug, it's a feature :-)
+
+---
+
+### I use Dropbox: is maybe like Dropbox
+
+| Dropbox                                                                 | Git                                                           |
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
+| Each file is synced server side: if I haven't connection, no versioning | I don't need a server to take a snapshot of my work           | 
+| Each file is synced and versioned automatically, indipendently          | Each version is about the whole project, not any single file. | 
+| *(potential inconsistency)*                                             | *(potential consistency)*                                     |
+
+---
+
+### I use SVN: is maybe like SVN
+
+| SVN                                                                     | Git                                                      |
+|-------------------------------------------------------------------------|----------------------------------------------------------|
+| Each file is synced server side: if I haven't connection, no versioning | I don't need a server to take a snapshot of my work      | 
+| I can perform a lock                                                    | No lock strategy: merge (potential) conflict at the end. | 
+
+---
+
+# Shopping list
+
+### Minimal
+
+- desire to use git
+- Git
+
+### Nice to have
+
+- GUI Git Client
+- Server, Account, Permissions
