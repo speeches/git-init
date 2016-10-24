@@ -1,3 +1,5 @@
+<!-- .element: id="definition" -->
+
 # Git definition
 
 ---
@@ -51,36 +53,81 @@
 
 nice definitions, what is git actually?
 
-You can imagine git like a virtual file system, with a great support for snapshot
-
-*(not like windows's restore point)*
-
 ---
 
-## Snapshots are not automatic 
-### but it is an explicit operation!
+## You can imagine 
 
-... and is not a bug, it's a feature :-)
+# Git
+
+like a virtual file system
+
+with a great support for snapshot
+<br /><br />
+
+*(not like windows's restore point)* <!-- .element: class="fragment" -->
+
+===
+ <!-- .element: id="comparison" -->
+
+# Comparison with known monster
 
 ---
 
 ### I use Dropbox: is maybe like Dropbox
 
-| Dropbox                                                                 | Git                                                           |
-|-------------------------------------------------------------------------|---------------------------------------------------------------|
-| Each file is synced server side: no connection means no versioning <!-- .element: class="fragment" --> | I don't need a server to take a snapshot of my work <!-- .element: class="fragment" -->
-| Each file is synced and versioned automatically, indipendently <!-- .element: class="fragment" --> | Each version is about the whole project, not any single file. <!-- .element: class="fragment" -->
-| *(potential inconsistency)*<!-- .element: class="fragment" --> | *(potential consistency)* <!-- .element: class="fragment" -->
-
+<table>
+<thead>
+  <tr>
+    <th>Dropbox</th>
+    <th>Git</th>
+  </tr>
+</thead>
+<tbody>
+  <tr class="fragment">
+    <td>Each file is synced server side: no connection means no versioning</td>
+    <td>I don't need a server to take a snapshot of my work</td>
+  </tr>  
+  <tr class="fragment">
+    <td>Each file is synced and versioned automatically, indipendently</td>
+    <td>Each version is about the whole project, not any single file.</td>
+  </tr>
+  <tr class="fragment">
+    <td>(~~potential~~ inconsistency)</td>
+    <td>(~~potential~~ inconsistency)</td>
+  </tr>
+</tbody>
+</table>
 
 ---
 
 ### I use SVN: is maybe like SVN
 
-| SVN                                                                     | Git                                                      
-|-------------------------------------------------------------------------|----------------------------------------------------------
-| Each file is synced server side: if I haven't connection, no versioning <!-- .element: class="fragment" -->  | I don't need a server to take a snapshot of my work <!-- .element: class="fragment" --> 
-| I can perform a lock <!-- .element: class="fragment" --> | No lock strategy: merge (potential) conflict at the end.  <!-- .element: class="fragment" --> 
+<table>
+<thead>
+  <tr>
+    <th>Svn</th>
+    <th>Git</th>
+  </tr>
+</thead>
+<tbody>
+  <tr class="fragment">
+    <td>Each file is synced server side: no connection means no versioning</td>
+    <td>I don't need a server to take a snapshot of my work</td>
+  </tr>  
+  <tr class="fragment">
+    <td>I can perform a lock</td>
+    <td>No lock strategy: merge (potential) conflict at the end.</td>
+  </tr>
+</tbody>
+</table>
+
+---
+
+## Commits are not automatic 
+### but it is an explicit operation!
+
+>  <!-- .element: class="fragment" -->
+> ... is not a bug, it's a feature :-)
 
 ---
 
@@ -91,6 +138,8 @@ You can imagine git like a virtual file system, with a great support for snapsho
 - Git
 - desire to use git <!-- .element: class="fragment" data-fragment-index="0" -->
 - no Server, Account, Permissions needed<!-- .element: class="fragment" data-fragment-index="1"-->
+<br />
+<br />
 
 ### Suggested <!-- .element: class="fragment" data-fragment-index="3"-->
 
