@@ -36,16 +36,13 @@
 
 ---
 
-## Git really is
-
-- An DSCM `=>` Distributed* Source Control Management
-- It's by Linus Torvalds
-- Was born by Linus bad experience using CVS
-
 ## Git really isn't
-- Another Version Control (CVS, SVN, TFS, Mercurial)
+- A deep copy of others VCS* (CVS, SVN, TFS, Mercurial)
 - Dropbox, One Drive, Google Drive, *Drive
 - A network share
+- Magical <!-- .element: class="fragment" -->
+
+*VCS: Version Control System
 
 ===
 
@@ -71,18 +68,19 @@ You can imagine git like a virtual file system, with a great support for snapsho
 
 | Dropbox                                                                 | Git                                                           |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| Each file is synced server side: if I haven't connection, no versioning | I don't need a server to take a snapshot of my work           | 
-| Each file is synced and versioned automatically, indipendently          | Each version is about the whole project, not any single file. | 
-| *(potential inconsistency)*                                             | *(potential consistency)*                                     |
+| Each file is synced server side: no connection means no versioning <!-- .element: class="fragment" --> | I don't need a server to take a snapshot of my work <!-- .element: class="fragment" -->
+| Each file is synced and versioned automatically, indipendently <!-- .element: class="fragment" --> | Each version is about the whole project, not any single file. <!-- .element: class="fragment" -->
+| *(potential inconsistency)*<!-- .element: class="fragment" --> | *(potential consistency)* <!-- .element: class="fragment" -->
+
 
 ---
 
 ### I use SVN: is maybe like SVN
 
-| SVN                                                                     | Git                                                      |
-|-------------------------------------------------------------------------|----------------------------------------------------------|
-| Each file is synced server side: if I haven't connection, no versioning | I don't need a server to take a snapshot of my work      | 
-| I can perform a lock                                                    | No lock strategy: merge (potential) conflict at the end. | 
+| SVN                                                                     | Git                                                      
+|-------------------------------------------------------------------------|----------------------------------------------------------
+| Each file is synced server side: if I haven't connection, no versioning <!-- .element: class="fragment" -->  | I don't need a server to take a snapshot of my work <!-- .element: class="fragment" --> 
+| I can perform a lock <!-- .element: class="fragment" --> | No lock strategy: merge (potential) conflict at the end.  <!-- .element: class="fragment" --> 
 
 ---
 
@@ -91,10 +89,10 @@ You can imagine git like a virtual file system, with a great support for snapsho
 ### Minimal
 
 - Git
-- desire to use git
-- ~~Server, Account, Permissions~~
+- desire to use git <!-- .element: class="fragment" data-fragment-index="0" -->
+- no Server, Account, Permissions needed<!-- .element: class="fragment" data-fragment-index="1"-->
 
-### Nice to have
+### Suggested <!-- .element: class="fragment" data-fragment-index="3"-->
 
-- GUI Git Client
-- Server, Account, Permissions
+- GUI Git Client (becouse cmd line is hard) <!-- .element: class="fragment" data-fragment-index="3"-->
+- Server, Account, Permissions <!-- .element: class="fragment" data-fragment-index="3"-->
