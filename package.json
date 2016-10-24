@@ -17,7 +17,8 @@
   "author": "Claudio Bartoli <claudio@barto.li>",
   "license": "ISC",
   "dependencies": {
-    "reveal.js": "^3.3.0"
+    "reveal.js": "^3.3.0",
+    "reveal.js-menu": "^0.7.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

@@ -1,4 +1,4 @@
-<!-- .element: id="start" style="text-align: left; vertical-align: text-bottom;" data-background-image="https://possiblemobile.com/wp-content/uploads/2016/07/git-1.png" -->
+<!-- .element: id="start" data-menu-title="Home" style="text-align: left; vertical-align: text-bottom;" data-background-image="https://possiblemobile.com/wp-content/uploads/2016/07/git-1.png" -->
 
 ## Advanced
 # Git init
@@ -19,7 +19,7 @@
 </p> -->
 
 ---
-<!-- .element: id="agenda" -->
+<!-- .element: id="agenda" data-menu-title="Agenda" -->
 
 # we'll Cover
 ### A.K.A Agenda <!-- .element: class="fragment" -->

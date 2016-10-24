@@ -3,6 +3,7 @@
 # Git definition
 
 ---
+<!-- .element: id="urbandictionary" data-menu-title="Urban Dictionary" -->
 
 # Git is
 
@@ -17,6 +18,7 @@
 [1]: http://www.urbandictionary.com/define.php?term=Git
 
 ---
+<!-- .element: id="wikipedia" data-menu-title="Wikipedia" -->
 
 # Git is
 
@@ -27,6 +29,7 @@
 [1]: http://en.wikipedia.org/wiki/Git
 
 ---
+<!-- .element: id="git-scm" data-menu-title="Official Website" -->
 
 # Git is
 
@@ -47,6 +50,7 @@
 *VCS: Version Control System
 
 ===
+<!-- .element: data-menu-title="How it works" -->
 
 # ...ok
 ## but how it works ?
@@ -54,6 +58,7 @@
 nice definitions, what is git actually?
 
 ---
+<!-- .element: data-menu-title="Virtual Filesystem" -->
 
 ## You can imagine 
 
@@ -67,11 +72,12 @@ with a great support for snapshot
 *(not like windows's restore point)* <!-- .element: class="fragment" -->
 
 ===
- <!-- .element: id="comparison" -->
+<!-- .element: id="comparison" data-menu-title="Git compared with..." -->
 
 # Comparison with known monster
 
 ---
+<!-- .element: id="comparison-dropbox" data-menu-title="Dropbox" -->
 
 ### I use Dropbox: is maybe like Dropbox
 
@@ -99,6 +105,7 @@ with a great support for snapshot
 </table>
 
 ---
+<!-- .element: id="comparison-svn" data-menu-title="SVN" -->
 
 ### I use SVN: is maybe like SVN
 

@@ -17,8 +17,13 @@ Reveal.initialize({
         { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
         { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
         { src: 'plugin/zoom-js/zoom.js', async: true },
-        { src: 'plugin/notes/notes.js', async: true }
-    ]
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'node_modules/reveal.js-menu/menu.js', async: true }
+    ],
+
+    menu: {
+        numbers: true
+    }
 });
 
 var newLine = '(\r)?\n';
