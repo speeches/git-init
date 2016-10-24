@@ -32,5 +32,5 @@ for (var group of document.getElementsByClassName("section-md")){
     group.dataset.separator = "^" + newLine + "===" + newLine ;
     group.dataset.separatorVertical = "^" + newLine + "---" + newLine ;
     group.dataset.separatorNotes = "^Note:";
-    group.dataset.charset = "iso-8859-15";
+    group.dataset.charset = "UTF-8";
 }

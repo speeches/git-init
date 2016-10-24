@@ -2,6 +2,9 @@
 
 # Git definition
 
+Note:
+Per capire cos'è git andiamo a vedere come lo definiscono gli altri in giro.
+
 ---
 <!-- .element: id="urbandictionary" data-menu-title="Urban Dictionary" -->
 
@@ -79,7 +82,8 @@ with a great support for snapshot
 ---
 <!-- .element: id="comparison-dropbox" data-menu-title="Dropbox" -->
 
-### I use Dropbox: is maybe like Dropbox
+### I use Dropbox
+is maybe GIT like Dropbox ?
 
 <table>
 <thead>
@@ -107,7 +111,8 @@ with a great support for snapshot
 ---
 <!-- .element: id="comparison-svn" data-menu-title="SVN" -->
 
-### I use SVN: is maybe like SVN
+### I use SVN
+is maybe GIT like SVN
 
 <table>
 <thead>
@@ -135,6 +140,12 @@ with a great support for snapshot
 
 >  <!-- .element: class="fragment" -->
 > ... is not a bug, it's a feature :-)
+
+Note:
+Ad esempio in dropbox non abbiamo il controllo di come e quando venga fatto il nostro
+snapshot. Con git invece lo sappiamo molto bene!
+
+Lo vogliamo e lo dobbiamo controllare!
 
 ---
 
