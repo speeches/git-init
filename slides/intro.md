@@ -8,13 +8,13 @@
 <!-- .element: id="agenda" data-menu-title="Agenda" -->
 
 # we'll Cover
-### A.K.A Agenda <!-- .element: class="fragment" -->
+### A.K.A Agenda
 
-- version controls <!-- .element: class="fragment" -->
-- why git <!-- .element: class="fragment" -->
-- git overview <!-- .element: class="fragment" -->
-- git fundamentals <!-- .element: class="fragment" -->
-- playng nice with other developers <!-- .element: class="fragment" -->
+- version controls <!-- .element: class="fragment" data-fragment-index="0" -->
+- why git <!-- .element: class="fragment" data-fragment-index="0" -->
+- git overview <!-- .element: class="fragment" data-fragment-index="0" -->
+- git fundamentals <!-- .element: class="fragment" data-fragment-index="0" -->
+- playng nice with other developers <!-- .element: class="fragment" data-fragment-index="0" -->
 
 ---
 <!-- .element: id="disclaimer" -->
@@ -22,8 +22,8 @@
 ## Disclaimer
 ### for the next couple of hours
 
-# Start Fresh !! <!-- .element: class="fragment" -->
+# Start Fresh !! <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- forget everything you may know about version control systems <!-- .element: class="fragment" -->
-- forget everything you may know about git in particular <!-- .element: class="fragment" -->
-- forget everything about you actual coding workflow <!-- .element: class="fragment" -->
+- forget everything you may know about version control systems <!-- .element: class="fragment" data-fragment-index="2" -->
+- forget everything you may know about git in particular <!-- .element: class="fragment" data-fragment-index="2" -->
+- forget everything about you actual coding workflow <!-- .element: class="fragment" data-fragment-index="2" -->
