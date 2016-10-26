@@ -103,7 +103,7 @@ is maybe GIT like Dropbox ?
   </tr>
   <tr class="fragment">
     <td>(~~potential~~ inconsistency)</td>
-    <td>(~~potential~~ inconsistency)</td>
+    <td>(~~potential~~ consistency)</td>
   </tr>
 </tbody>
 </table>
