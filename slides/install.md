@@ -36,6 +36,8 @@
 
 # Try git
 
+### the hard way
+
 - new repo
 - git status
 - add file
@@ -46,7 +48,21 @@
 
 # Install Gui
 
+### the easy way
+
 - install gitextensions
 - configure difftools
 - view previous repo
 - do another commit
+
+> there is also sourcetree on windows but is less powerful than gitex
+
+---
+
+# GIT Gui inside IDE
+
+- are very useful for day by day commits
+- very limited for "complex" operations
+
+### Probably you have to switch to gitex
+> so... don't forget it!
