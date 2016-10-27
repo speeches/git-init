@@ -146,20 +146,3 @@ Ad esempio in dropbox non abbiamo il controllo di come e quando venga fatto il n
 snapshot. Con git invece lo sappiamo molto bene!
 
 Lo vogliamo e lo dobbiamo controllare!
-
----
-
-# Shopping list
-
-### Minimal
-
-- Git
-- desire to use git <!-- .element: class="fragment" data-fragment-index="0" -->
-- no Server, Account, Permissions needed<!-- .element: class="fragment" data-fragment-index="1"-->
-<br />
-<br />
-
-### Suggested <!-- .element: class="fragment" data-fragment-index="3"-->
-
-- GUI Git Client (becouse cmd line is hard) <!-- .element: class="fragment" data-fragment-index="3"-->
-- Server, Account, Permissions <!-- .element: class="fragment" data-fragment-index="3"-->

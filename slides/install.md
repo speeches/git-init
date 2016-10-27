@@ -2,6 +2,23 @@
 
 ---
 
+# Shopping list
+
+### Minimal
+
+- Git
+- desire to use git <!-- .element: class="fragment" data-fragment-index="0" -->
+- no Server, Account, Permissions needed<!-- .element: class="fragment" data-fragment-index="1"-->
+<br />
+<br />
+
+### Suggested <!-- .element: class="fragment" data-fragment-index="3"-->
+
+- GUI Git Client (becouse cmd line is hard) <!-- .element: class="fragment" data-fragment-index="3"-->
+- Server, Account, Permissions <!-- .element: class="fragment" data-fragment-index="3"-->
+
+---
+
 # Install
 
 - install git-scm
