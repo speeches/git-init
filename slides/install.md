@@ -30,7 +30,20 @@
 - EOL strategy
 - Credential Manager
 - Global Gitignore
-- Global user
+
+```bash
+# End of line on windows
+$ git config --global core.autocrlf true
+
+# Global gitignore
+$ git config --global core.excludesfile "%USERPROFILE%\.gitignore"
+
+# Global User
+$ git config --global user.name "Claudio Bartoli"
+$ git config --global user.email "claudio@barto.li"
+```
+
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 ---
 

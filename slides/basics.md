@@ -49,7 +49,7 @@ Managed by `.gitignore` file on target folder
 
 ---
 
-# Respository
+# Repository
 
 The repository with all changes is always with you!
 
