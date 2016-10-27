@@ -1,3 +1,4 @@
+<!-- .element: id="expectation" data-menu-title="Expectation" -->
 ## tuning of our
 # expectation
 
@@ -13,12 +14,12 @@
 # Git replace
 
 - our crazy folder naming convention `_v1`, `_old`, `_bkp`, ` (1)`
-- our fear to delete an unused file (but potentially helpful in future)
+- our fear to delete an unused file (but potentially helpful in the future)
 
 ---
 
-# Git Add
+# Git introduce
 
-- Working together (managing conflicts if necessary)
-- Branches
+- Working together (in a safe way)
+- Branches concept
 - ... a lot of advanced things
