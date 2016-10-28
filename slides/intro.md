@@ -26,4 +26,4 @@
 
 - forget everything you may know about version control systems <!-- .element: class="fragment" data-fragment-index="2" -->
 - forget everything you may know about git in particular <!-- .element: class="fragment" data-fragment-index="2" -->
-- forget everything about you actual coding workflow <!-- .element: class="fragment" data-fragment-index="2" -->
+- forget everything about your current coding workflow <!-- .element: class="fragment" data-fragment-index="2" -->

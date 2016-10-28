@@ -44,8 +44,8 @@ Per capire cos'è git andiamo a vedere come lo definiscono gli altri in giro.
 
 ---
 
-## Git really isn't
-- A deep copy of others VCS* (CVS, SVN, TFS, Mercurial)
+## What Git isn't
+- A clone of other VCS* (CVS, SVN, TFS, Mercurial)
 - Dropbox, One Drive, Google Drive, *Drive
 - A network share
 - Magical <!-- .element: class="fragment" -->
@@ -56,7 +56,7 @@ Per capire cos'è git andiamo a vedere come lo definiscono gli altri in giro.
 <!-- .element: data-menu-title="How it works" -->
 
 # ...ok
-## but how it works ?
+## but how does it work ?
 
 nice definitions, what is git actually?
 
@@ -69,10 +69,10 @@ nice definitions, what is git actually?
 
 like a virtual file system
 
-with a great support for snapshot
+with deep support for snapshots
 <br /><br />
 
-*(not like windows's restore point)* <!-- .element: class="fragment" -->
+*(not like Windows' restore point)* <!-- .element: class="fragment" -->
 
 ===
 <!-- .element: id="comparison" data-menu-title="Git compared with..." -->
@@ -83,7 +83,7 @@ with a great support for snapshot
 <!-- .element: id="comparison-dropbox" data-menu-title="Dropbox" -->
 
 ### I use Dropbox
-is maybe GIT like Dropbox ?
+is Git a bit like Dropbox ?
 
 <table>
 <thead>
@@ -112,7 +112,7 @@ is maybe GIT like Dropbox ?
 <!-- .element: id="comparison-svn" data-menu-title="SVN" -->
 
 ### I use SVN
-is maybe GIT like SVN
+maybe Git is like SVN...
 
 <table>
 <thead>

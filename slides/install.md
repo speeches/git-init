@@ -59,7 +59,7 @@ https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 ---
 
-# Install Gui
+# Install GUI
 
 ### the easy way
 
@@ -72,10 +72,10 @@ https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 ---
 
-# GIT Gui inside IDE
+# Git GUI inside IDE
 
 - are very useful for day by day commits
 - very limited for "complex" operations
 
-### Probably you have to switch to gitex
+### You should probably switch to gitex
 > so... don't forget it!
