@@ -51,15 +51,29 @@ https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 ### the hard way
 
-- new repo
-- git status
-- add file
-- stage file
-- commit file
+```bash
+# init
+$ cd project
+$ git init
+$ git status
+
+# add file
+$ echo content > file.txt
+$ git status
+
+# stage file 
+$ git add file.txt
+$ git status
+
+# commit
+$ git commit -m "first commit"
+$ git status
+$ git log
+```
 
 ---
 
-# Install GUI
+# Configure Git GUI
 
 ### the easy way
 
