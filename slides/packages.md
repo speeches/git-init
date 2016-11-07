@@ -1,0 +1,35 @@
+# Packages
+
+---
+
+## Problem 
+
+if git can't manage binary files who is responsable for external dependencies like external libraries ?
+
+---
+
+# Package Manager
+
+---
+
+# some examples
+
+| Tecnology | Package Manager |
+|-----------|-----------------|
+| .net   | nuget    |
+| nodejs | npm      |
+| ruby   | gem      |
+| php    | composer |
+| java   | maven    |
+
+---
+
+# usages
+
+- Exclude dependency directory from git repo
+- Fetch dependency locally
+
+### But
+ensure that a script for fetch dependencies exists
+
+(it's necessary for you, a new team member, CI)
