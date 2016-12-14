@@ -38,6 +38,9 @@ $ git config --global core.autocrlf true
 # Global gitignore
 $ git config --global core.excludesfile "%USERPROFILE%\.gitignore"
 
+# Merge strategy
+$ git config --global pull.rebase true
+
 # Global User
 $ git config --global user.name "Claudio Bartoli"
 $ git config --global user.email "claudio@barto.li"
