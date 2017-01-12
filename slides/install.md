@@ -34,6 +34,7 @@
 ```bash
 # End of line on windows
 $ git config --global core.autocrlf true
+$ git config --system core.longpaths true
 
 # Global gitignore
 $ git config --global core.excludesfile "%USERPROFILE%\.gitignore"
