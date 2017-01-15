@@ -1,6 +1,8 @@
 /* global module:false */
+
 module.exports = function(grunt) {
-	var port = grunt.option('port') || 8000;
+	
+	var port = grunt.option('port') || 7070;
 	var base = [grunt.option('base') || '.', 'node_modules/reveal.js'];
 
 	// Project configuration
