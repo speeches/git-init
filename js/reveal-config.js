@@ -18,7 +18,11 @@ Reveal.initialize({
         { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
         { src: 'plugin/zoom-js/zoom.js', async: true },
         { src: 'plugin/notes/notes.js', async: true },
-        { src: 'node_modules/reveal.js-menu/menu.js', async: true }
+        { src: 'node_modules/reveal.js-menu/menu.js', async: true, condition: function () { 
+            if (! window.frameElement) return false; // main
+            if (window.frameElement.parentElement.getAttribute("id") === "current-slide") return true;
+            if (window.frameElement.parentElement.getAttribute("id") === "upcoming-slide") return false;
+        } }
     ],
 
     menu: {
