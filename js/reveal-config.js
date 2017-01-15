@@ -26,7 +26,8 @@ Reveal.initialize({
     ],
 
     menu: {
-        numbers: true
+        numbers: false,
+        markers: true
     }
 });
 
